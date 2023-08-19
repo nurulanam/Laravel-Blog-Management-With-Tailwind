@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    *{
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+@layer components{
+    .btn{
+        @apply inline-flex items-center px-3 py-2 text-sm font-medium text-center rounded-lg focus:ring-4 focus:outline-none;
+    }
+    .btn-blue-700{
+        @apply text-white bg-blue-700 hover:bg-blue-800 dark:bg-blue-600 dark:hover:bg-blue-700 focus:ring-blue-300 dark:focus:ring-blue-800;
+    }
+    .btn-gray-700{
+        @apply text-white bg-gray-700 hover:bg-gray-800 dark:bg-gray-600 dark:hover:bg-gray-700 focus:ring-gray-300 dark:focus:ring-gray-800;
+    }
+    .input{
+        @apply p-4 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500;
+    }
+    .card{
+        @apply w-full h-full transition-all ease-linear bg-slate-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden;
+    }
+    .card-img{
+        @apply w-full max-h-64 transition-all ease-linear delay-200 scale-100 group-hover:scale-105 object-cover;
+    }
+    .card-badge{
+        @apply bg-white text-blue-700 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-900 dark:text-white
+    }
+    .read-more-bg{
+        @apply absolute left-0 transition-all ease-linear h-8 w-8 rounded-full bg-blue-600 z-[3];
+    }
+    .read-more:hover .read-more-bg{
+        @apply -left-2
+
+    }
+}
