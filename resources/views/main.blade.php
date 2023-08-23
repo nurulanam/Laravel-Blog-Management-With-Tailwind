@@ -115,7 +115,7 @@
     </div>
 
     {{-- Banner section start  --}}
-    <section class="banner-section bg-slate-50 dark:bg-gray-800 py-12 px-4 md:px-0 ">
+    <section class="banner-section bg-blue-50 dark:bg-gray-800 py-12 px-4 md:px-0 ">
         <div class="container mx-auto">
             <div class="grid grid-cols-12 gap-4">
                 <div class="hidden md:block col-span-12 lg:col-span-8">
@@ -134,23 +134,8 @@
                                 </div>
                                 <div
                                     class="banner-blog-contents absolute md:space-y-2 left-0 bottom-4 lg:bottom-0 p-5 lg:p-8 w-full text-center md:text-start">
-                                    <h2 class="text-2xl text-white font-bold">This is firest title</h2>
-                                    <p class="text-stone-300">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
-                                </div>
-                            </a>
-                            <a href="#" class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <div
-                                    class="image absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-                                    <img src="https://images.pexels.com/photos/17667643/pexels-photo-17667643/free-photo-of-mar-de-cactos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                        class="relative rounded-lg" alt="...">
-                                    <span
-                                        class="absolute bg-gradient-to-t bottom-0 left-0 from-slate-950 to-transparent h-3/5 rounded-xl w-full"></span>
-                                </div>
-                                <div
-                                    class="banner-blog-contents absolute md:space-y-2 left-0 bottom-4 lg:bottom-0 p-5 lg:p-8 w-full text-center md:text-start">
-                                    <h2 class="text-2xl  text-white font-bold">This is second title</h2>
-                                    <p class="text-stone-300">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <h2 class="text-2xl text-white capitalize font-bold">This is first title</h2>
+                                    <p class="text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     </p>
                                 </div>
                             </a>
@@ -164,23 +149,38 @@
                                 </div>
                                 <div
                                     class="banner-blog-contents absolute md:space-y-2 left-0 bottom-4 lg:bottom-0 p-5 lg:p-8 w-full text-center md:text-start">
-                                    <h2 class="text-2xl  text-white font-bold">This is third title</h2>
-                                    <p class="text-stone-300">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <h2 class="text-2xl text-white capitalize font-bold">This is first title</h2>
+                                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     </p>
                                 </div>
                             </a>
                             <a href="#" class="hidden duration-700 ease-in-out" data-carousel-item>
                                 <div
                                     class="image absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-                                    <img src="https://images.pexels.com/photos/17667643/pexels-photo-17667643/free-photo-of-mar-de-cactos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                    <img src="https://images.pexels.com/photos/16671170/pexels-photo-16671170/free-photo-of-islands-in-ocean.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                                         class="relative rounded-lg" alt="...">
                                     <span
                                         class="absolute bg-gradient-to-t bottom-0 left-0 from-slate-950 to-transparent h-3/5 rounded-xl w-full"></span>
                                 </div>
                                 <div
                                     class="banner-blog-contents absolute md:space-y-2 left-0 bottom-4 lg:bottom-0 p-5 lg:p-8 w-full text-center md:text-start">
-                                    <h2 class="text-2xl  text-white font-bold">This is fourth title</h2>
-                                    <p class="text-stone-300">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <h2 class="text-2xl text-white capitalize font-bold">This is first title</h2>
+                                    <p class="text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </a>
+                            <a href="#" class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <div
+                                    class="image absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                                    <img src="https://images.pexels.com/photos/16671170/pexels-photo-16671170/free-photo-of-islands-in-ocean.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                        class="relative rounded-lg" alt="...">
+                                    <span
+                                        class="absolute bg-gradient-to-t bottom-0 left-0 from-slate-950 to-transparent h-3/5 rounded-xl w-full"></span>
+                                </div>
+                                <div
+                                    class="banner-blog-contents absolute md:space-y-2 left-0 bottom-4 lg:bottom-0 p-5 lg:p-8 w-full text-center md:text-start">
+                                    <h2 class="text-2xl text-white capitalize font-bold">This is first title</h2>
+                                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     </p>
                                 </div>
                             </a>
@@ -216,16 +216,19 @@
                 </div>
 
                 <div class="col-span-12 lg:col-span-4 rounded-lg">
-                    <div class="card lg:h-[27rem] xl:h-[30rem] 2xl:h-[33rem] group dark:bg-gray-900">
-                        <a href="#" class="relative">
-                            <img class="rounded-t-lg w-full transition-all ease-linear delay-200 scale-100 group-hover:scale-105 md:hidden lg:block"
-                                src="https://images.pexels.com/photos/17621788/pexels-photo-17621788/free-photo-of-snow-wood-landscape-vacation.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
-                                alt="" />
-                            <span
-                                class="absolute top-5 left-1 card-badge">
-                                <i class="fa-duotone fa-thumbtack"></i>
-                            </span>
-                        </a>
+                    <div class="card bg-white dark:bg-gray-900 lg:h-[27rem] xl:h-[30rem] 2xl:h-[33rem] group">
+                        <div class="overflow-hidden">
+                            <a href="#" class="relative">
+                                <img class="rounded-t-lg w-full transition-all ease-linear delay-200 scale-100 group-hover:scale-105 md:hidden lg:block"
+                                    src="https://images.pexels.com/photos/17621788/pexels-photo-17621788/free-photo-of-snow-wood-landscape-vacation.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
+                                    alt="" />
+                                <span
+                                    class="absolute top-5 left-1 card-badge">
+                                    <i class="fa-duotone fa-thumbtack"></i>
+                                </span>
+                            </a>
+
+                        </div>
                         <div class="p-5">
                             <a href="#">
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -248,75 +251,141 @@
     </section>
 
     {{-- All Categories start --}}
-    <section class="all-categories-section bg-white dark:bg-gray-900 px-4 md:px-0 pt-12">
+    <section class="all-categories-section bg-white dark:bg-gray-900 px-4 md:px-0 py-12">
         <div class="container mx-auto">
-            <h2 class="text-blue-700 text-3xl font-bold pb-3 border-b border-gray-200 dark:border-blue-950">All
+            <h2 class="text-5xl font-bold inline-block pb-3 dark:border-blue-950 dark:hover:text-stroke-white transition-all ease-linear text-blue-700 hover:text-stroke-blue hover:text-transparent">All
                 Categories</h2>
+                <div class="border-b border-blue-50 dark:border-gray-700 my-2"></div>
             <div class="grid grid-cols-12 gap-4 mt-4">
                 <div class="col-span-12 md:col-span-4 lg:col-span-2">
                     <a href="#" class="w-full">
                         <button
-                            class="bg-slate-100 w-full h-auto focus:dark:bg-gray-700 transition-all ease-linear hover:bg-slate-200 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-white px-4 py-8 relative rounded-lg text-center overflow-hidden">
+                            class="bg-blue-50 group w-full h-auto transition-all ease-linear hover:bg-blue-950 dark:bg-gray-800 dark:hover:bg-gray-700 px-4 py-8 relative rounded-lg text-center overflow-hidden">
                             <div class="category-icon absolute left-0 top-0">
-                                <i class="fa-duotone fa-video fa-2xl rotate-45 opacity-30"></i>
+                                <i class="fa-duotone fa-video fa-2xl rotate-45 transition-all ease-linear text-gray-950 dark:text-white group-hover:text-white"></i>
                             </div>
-                            <h3 class="text-lg font-medium">Premium Courses</h3>
+                            <h3 class="text-lg font-medium text-gray-950 dark:text-white transition-all ease-linear group-hover:text-white">Premium Courses</h3>
                         </button>
                     </a>
                 </div>
                 <div class="col-span-12 md:col-span-4 lg:col-span-2">
                     <a href="#" class="w-full">
                         <button
-                            class="bg-slate-100 w-full h-full focus:dark:bg-gray-700 transition-all ease-linear hover:bg-slate-200 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-white px-4 py-8 relative rounded-lg text-center overflow-hidden">
+                            class="bg-blue-50 group w-full h-auto transition-all ease-linear hover:bg-blue-950 dark:bg-gray-800 dark:hover:bg-gray-700 px-4 py-8 relative rounded-lg text-center overflow-hidden">
                             <div class="category-icon absolute left-0 top-0">
-                                <i class="fa-duotone fa-cookie fa-2xl rotate-45 opacity-30"></i>
+                                <i class="fa-duotone fa-video fa-2xl rotate-45 transition-all ease-linear text-gray-950 dark:text-white group-hover:text-white"></i>
                             </div>
-                            <h3 class="text-lg font-medium">Free Cookies</h3>
+                            <h3 class="text-lg font-medium text-gray-950 dark:text-white transition-all ease-linear group-hover:text-white">Premium Courses</h3>
                         </button>
                     </a>
                 </div>
                 <div class="col-span-12 md:col-span-4 lg:col-span-2">
                     <a href="#" class="w-full">
                         <button
-                            class="bg-slate-100 w-full h-full focus:dark:bg-gray-700 transition-all ease-linear hover:bg-slate-200 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-white px-4 py-8 relative rounded-lg text-center overflow-hidden">
+                            class="bg-blue-50 group w-full h-auto transition-all ease-linear hover:bg-blue-950 dark:bg-gray-800 dark:hover:bg-gray-700 px-4 py-8 relative rounded-lg text-center overflow-hidden">
                             <div class="category-icon absolute left-0 top-0">
-                                <i class="fa-duotone fa-motorcycle fa-2xl rotate-45 opacity-30"></i>
+                                <i class="fa-duotone fa-video fa-2xl rotate-45 transition-all ease-linear text-gray-950 dark:text-white group-hover:text-white"></i>
                             </div>
-                            <h3 class="text-lg font-medium">Tours & Travels</h3>
+                            <h3 class="text-lg font-medium text-gray-950 dark:text-white transition-all ease-linear group-hover:text-white">Premium Courses</h3>
                         </button>
                     </a>
                 </div>
                 <div class="col-span-12 md:col-span-4 lg:col-span-2">
                     <a href="#" class="w-full">
                         <button
-                            class="bg-slate-100 w-full h-full focus:dark:bg-gray-700 transition-all ease-linear hover:bg-slate-200 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-white px-4 py-8 relative rounded-lg text-center overflow-hidden">
+                            class="bg-blue-50 group w-full h-auto transition-all ease-linear hover:bg-blue-950 dark:bg-gray-800 dark:hover:bg-gray-700 px-4 py-8 relative rounded-lg text-center overflow-hidden">
                             <div class="category-icon absolute left-0 top-0">
-                                <i class="fa-duotone fa-microchip fa-2xl rotate-45 opacity-30"></i>
+                                <i class="fa-duotone fa-video fa-2xl rotate-45 transition-all ease-linear text-gray-950 dark:text-white group-hover:text-white"></i>
                             </div>
-                            <h3 class="text-lg font-medium">Technology</h3>
+                            <h3 class="text-lg font-medium text-gray-950 dark:text-white transition-all ease-linear group-hover:text-white">Premium Courses</h3>
                         </button>
                     </a>
                 </div>
                 <div class="col-span-12 md:col-span-4 lg:col-span-2">
-                    <a href="#">
+                    <a href="#" class="w-full">
                         <button
-                            class="bg-slate-100 w-full h-full focus:dark:bg-gray-700 transition-all ease-linear hover:bg-slate-200 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-white px-4 py-8 relative rounded-lg text-center overflow-hidden">
+                            class="bg-blue-50 group w-full h-auto transition-all ease-linear hover:bg-blue-950 dark:bg-gray-800 dark:hover:bg-gray-700 px-4 py-8 relative rounded-lg text-center overflow-hidden">
                             <div class="category-icon absolute left-0 top-0">
-                                <i class="fa-duotone fa-shirt fa-2xl rotate-[135deg] opacity-30"></i>
+                                <i class="fa-duotone fa-video fa-2xl rotate-45 transition-all ease-linear text-gray-950 dark:text-white group-hover:text-white"></i>
                             </div>
-                            <h3 class="text-lg font-medium ">Fashion</h3>
+                            <h3 class="text-lg font-medium text-gray-950 dark:text-white transition-all ease-linear group-hover:text-white">Premium Courses</h3>
                         </button>
                     </a>
                 </div>
                 <div class="col-span-12 md:col-span-4 lg:col-span-2">
-                    <a href="#">
+                    <a href="#" class="w-full">
                         <button
-                            class="bg-slate-100 w-full h-full focus:dark:bg-gray-700 transition-all ease-linear hover:bg-slate-200 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-white px-4 py-8 relative rounded-lg text-center overflow-hidden">
+                            class="bg-blue-50 group w-full h-auto transition-all ease-linear hover:bg-blue-950 dark:bg-gray-800 dark:hover:bg-gray-700 px-4 py-8 relative rounded-lg text-center overflow-hidden">
                             <div class="category-icon absolute left-0 top-0">
-                                <i
-                                    class="fa-duotone fa-display-chart-up-circle-dollar fa-2xl rotate-45 opacity-30"></i>
+                                <i class="fa-duotone fa-video fa-2xl rotate-45 transition-all ease-linear text-gray-950 dark:text-white group-hover:text-white"></i>
                             </div>
-                            <h3 class="text-lg font-medium ">Trading</h3>
+                            <h3 class="text-lg font-medium text-gray-950 dark:text-white transition-all ease-linear group-hover:text-white">Premium Courses</h3>
+                        </button>
+                    </a>
+                </div>
+                <div class="col-span-12 md:col-span-4 lg:col-span-2">
+                    <a href="#" class="w-full">
+                        <button
+                            class="bg-blue-50 group w-full h-auto transition-all ease-linear hover:bg-blue-950 dark:bg-gray-800 dark:hover:bg-gray-700 px-4 py-8 relative rounded-lg text-center overflow-hidden">
+                            <div class="category-icon absolute left-0 top-0">
+                                <i class="fa-duotone fa-video fa-2xl rotate-45 transition-all ease-linear text-gray-950 dark:text-white group-hover:text-white"></i>
+                            </div>
+                            <h3 class="text-lg font-medium text-gray-950 dark:text-white transition-all ease-linear group-hover:text-white">Premium Courses</h3>
+                        </button>
+                    </a>
+                </div>
+                <div class="col-span-12 md:col-span-4 lg:col-span-2">
+                    <a href="#" class="w-full">
+                        <button
+                            class="bg-blue-50 group w-full h-auto transition-all ease-linear hover:bg-blue-950 dark:bg-gray-800 dark:hover:bg-gray-700 px-4 py-8 relative rounded-lg text-center overflow-hidden">
+                            <div class="category-icon absolute left-0 top-0">
+                                <i class="fa-duotone fa-video fa-2xl rotate-45 transition-all ease-linear text-gray-950 dark:text-white group-hover:text-white"></i>
+                            </div>
+                            <h3 class="text-lg font-medium text-gray-950 dark:text-white transition-all ease-linear group-hover:text-white">Premium Courses</h3>
+                        </button>
+                    </a>
+                </div>
+                <div class="col-span-12 md:col-span-4 lg:col-span-2">
+                    <a href="#" class="w-full">
+                        <button
+                            class="bg-blue-50 group w-full h-auto transition-all ease-linear hover:bg-blue-950 dark:bg-gray-800 dark:hover:bg-gray-700 px-4 py-8 relative rounded-lg text-center overflow-hidden">
+                            <div class="category-icon absolute left-0 top-0">
+                                <i class="fa-duotone fa-video fa-2xl rotate-45 transition-all ease-linear text-gray-950 dark:text-white group-hover:text-white"></i>
+                            </div>
+                            <h3 class="text-lg font-medium text-gray-950 dark:text-white transition-all ease-linear group-hover:text-white">Premium Courses</h3>
+                        </button>
+                    </a>
+                </div>
+                <div class="col-span-12 md:col-span-4 lg:col-span-2">
+                    <a href="#" class="w-full">
+                        <button
+                            class="bg-blue-50 group w-full h-auto transition-all ease-linear hover:bg-blue-950 dark:bg-gray-800 dark:hover:bg-gray-700 px-4 py-8 relative rounded-lg text-center overflow-hidden">
+                            <div class="category-icon absolute left-0 top-0">
+                                <i class="fa-duotone fa-video fa-2xl rotate-45 transition-all ease-linear text-gray-950 dark:text-white group-hover:text-white"></i>
+                            </div>
+                            <h3 class="text-lg font-medium text-gray-950 dark:text-white transition-all ease-linear group-hover:text-white">Premium Courses</h3>
+                        </button>
+                    </a>
+                </div>
+                <div class="col-span-12 md:col-span-4 lg:col-span-2">
+                    <a href="#" class="w-full">
+                        <button
+                            class="bg-blue-50 group w-full h-auto transition-all ease-linear hover:bg-blue-950 dark:bg-gray-800 dark:hover:bg-gray-700 px-4 py-8 relative rounded-lg text-center overflow-hidden">
+                            <div class="category-icon absolute left-0 top-0">
+                                <i class="fa-duotone fa-video fa-2xl rotate-45 transition-all ease-linear text-gray-950 dark:text-white group-hover:text-white"></i>
+                            </div>
+                            <h3 class="text-lg font-medium text-gray-950 dark:text-white transition-all ease-linear group-hover:text-white">Premium Courses</h3>
+                        </button>
+                    </a>
+                </div>
+                <div class="col-span-12 md:col-span-4 lg:col-span-2">
+                    <a href="#" class="w-full">
+                        <button
+                            class="bg-blue-50 group w-full h-auto transition-all ease-linear hover:bg-blue-950 dark:bg-gray-800 dark:hover:bg-gray-700 px-4 py-8 relative rounded-lg text-center overflow-hidden">
+                            <div class="category-icon absolute left-0 top-0">
+                                <i class="fa-duotone fa-video fa-2xl rotate-45 transition-all ease-linear text-gray-950 dark:text-white group-hover:text-white"></i>
+                            </div>
+                            <h3 class="text-lg font-medium text-gray-950 dark:text-white transition-all ease-linear group-hover:text-white">Premium Courses</h3>
                         </button>
                     </a>
                 </div>
@@ -325,30 +394,32 @@
     </section>
 
     {{-- Featured Posts start --}}
-    <section class="featured-blogs-section bg-white dark:bg-gray-900 px-4 md:px-0 pt-12">
+    <section class="featured-blogs-section  dark:bg-gray-900 px-4 md:px-0">
         <div class="container mx-auto">
-            <h2 class="text-blue-700 text-3xl font-bold pb-3 border-b border-gray-200 dark:border-blue-950">Featured
-                Blogs</h2>
+            <h2 class="text-5xl text-end font-bold inline-block pb-3 dark:border-blue-950 dark:hover:text-stroke-white transition-all ease-linear text-blue-700 hover:text-stroke-blue hover:text-transparent">Featured Blogs</h2>
+                <div class="border-b border-blue-50 dark:border-gray-700 my-2"></div>
             <div class="grid grid-cols-12 gap-4 mt-4 ">
                 <div class="col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3">
                     <div class="card group">
-                        <a href="#" class="relative">
-                            <img class="rounded-t-lg card-img"
-                                src="https://images.pexels.com/photos/17621788/pexels-photo-17621788/free-photo-of-snow-wood-landscape-vacation.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
-                                alt="" />
-                            <span
-                                class="absolute top-5 left-1 card-badge">
-                                Featured
-                            </span>
-                        </a>
+                        <div class="overflow-hidden">
+                            <a href="#" class="relative">
+                                <img class="rounded-t-lg card-img"
+                                    src="https://images.pexels.com/photos/17621788/pexels-photo-17621788/free-photo-of-snow-wood-landscape-vacation.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
+                                    alt="" />
+                                <span
+                                    class="absolute top-5 left-1 card-badge">
+                                    Featured
+                                </span>
+                            </a>
+                        </div>
                         <div class="p-5">
                             <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight transition-all ease-linear text-blue-950 dark:text-white hover:text-blue-700 dark:hover:text-blue-700">
                                     Noteworthy technology acquis..</h5>
                             </a>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest
                                 enterprise technology acquisitions of 2021</p>
-                            <a href="#" class="btn text-black dark:text-white relative read-more">
+                            <a href="#" class="btn text-blue-950 dark:text-white relative read-more">
                                     <span class="z-[4]">
                                     Read more <i class="fa-duotone fa-arrow-right ms-1"></i>
                                 </span>
@@ -359,23 +430,25 @@
                 </div>
                 <div class="col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3">
                     <div class="card group">
-                        <a href="#" class="relative">
-                            <img class="rounded-t-lg card-img"
-                                src="https://images.pexels.com/photos/12825195/pexels-photo-12825195.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                alt="" />
-                            <span
-                                class="absolute top-5 left-1 card-badge">
-                                Featured
-                            </span>
-                        </a>
+                        <div class="overflow-hidden">
+                            <a href="#" class="relative">
+                                <img class="rounded-t-lg card-img"
+                                    src="https://images.pexels.com/photos/17621788/pexels-photo-17621788/free-photo-of-snow-wood-landscape-vacation.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
+                                    alt="" />
+                                <span
+                                    class="absolute top-5 left-1 card-badge">
+                                    Featured
+                                </span>
+                            </a>
+                        </div>
                         <div class="p-5">
                             <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight transition-all ease-linear text-blue-950 dark:text-white hover:text-blue-700 dark:hover:text-blue-700">
                                     Noteworthy technology acquis..</h5>
                             </a>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest
                                 enterprise technology acquisitions of 2021</p>
-                            <a href="#" class="btn text-black dark:text-white relative read-more">
+                            <a href="#" class="btn text-blue-950 dark:text-white relative read-more">
                                     <span class="z-[4]">
                                     Read more <i class="fa-duotone fa-arrow-right ms-1"></i>
                                 </span>
@@ -386,23 +459,25 @@
                 </div>
                 <div class="col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3">
                     <div class="card group">
-                        <a href="#" class="relative">
-                            <img class="rounded-t-lg card-img"
-                                src="https://images.pexels.com/photos/14770400/pexels-photo-14770400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                alt="" />
-                            <span
-                                class="absolute top-5 left-1 card-badge">
-                                Featured
-                            </span>
-                        </a>
+                        <div class="overflow-hidden">
+                            <a href="#" class="relative">
+                                <img class="rounded-t-lg card-img"
+                                    src="https://images.pexels.com/photos/17621788/pexels-photo-17621788/free-photo-of-snow-wood-landscape-vacation.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
+                                    alt="" />
+                                <span
+                                    class="absolute top-5 left-1 card-badge">
+                                    Featured
+                                </span>
+                            </a>
+                        </div>
                         <div class="p-5">
                             <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight transition-all ease-linear text-blue-950 dark:text-white hover:text-blue-700 dark:hover:text-blue-700">
                                     Noteworthy technology acquis..</h5>
                             </a>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest
-                                enterprise technology acquisitions of 2021 </p>
-                            <a href="#" class="btn text-black dark:text-white relative read-more">
+                                enterprise technology acquisitions of 2021</p>
+                            <a href="#" class="btn text-blue-950 dark:text-white relative read-more">
                                     <span class="z-[4]">
                                     Read more <i class="fa-duotone fa-arrow-right ms-1"></i>
                                 </span>
@@ -410,134 +485,27 @@
                             </a>
                         </div>
                     </div>
-                </div>
-                <div class="col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3">
+                </div><div class="col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3">
                     <div class="card group">
-                        <a href="#" class="relative">
-                            <img class="rounded-t-lg card-img"
-                                src="https://images.pexels.com/photos/16407227/pexels-photo-16407227/free-photo-of-man-in-a-leather-jacket-with-his-head-tilted-back.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                alt="" />
-                            <span
-                                class="absolute top-5 left-1 card-badge">
-                                Featured
-                            </span>
-                        </a>
-                        <div class="p-5">
-                            <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                    Noteworthy technology acquis..</h5>
-                            </a>
-                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest
-                                enterprise technology acquisitions of 2021 </p>
-                            <a href="#" class="btn text-black dark:text-white relative read-more">
-                                    <span class="z-[4]">
-                                    Read more <i class="fa-duotone fa-arrow-right ms-1"></i>
+                        <div class="overflow-hidden">
+                            <a href="#" class="relative">
+                                <img class="rounded-t-lg card-img"
+                                    src="https://images.pexels.com/photos/17621788/pexels-photo-17621788/free-photo-of-snow-wood-landscape-vacation.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
+                                    alt="" />
+                                <span
+                                    class="absolute top-5 left-1 card-badge">
+                                    Featured
                                 </span>
-                                <span class="read-more-bg"></span>
                             </a>
                         </div>
-                    </div>
-                </div>
-                <div class="col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3">
-                    <div class="card group">
-                        <a href="#" class="relative">
-                            <img class="rounded-t-lg card-img"
-                                src="https://images.pexels.com/photos/17728405/pexels-photo-17728405/free-photo-of-lizard.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
-                                alt="" />
-                            <span
-                                class="absolute top-5 left-1 card-badge">
-                                Featured
-                            </span>
-                        </a>
                         <div class="p-5">
                             <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight transition-all ease-linear text-blue-950 dark:text-white hover:text-blue-700 dark:hover:text-blue-700">
                                     Noteworthy technology acquis..</h5>
                             </a>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest
-                                enterprise technology acquisitions of 2021 </p>
-                            <a href="#" class="btn text-black dark:text-white relative read-more">
-                                    <span class="z-[4]">
-                                    Read more <i class="fa-duotone fa-arrow-right ms-1"></i>
-                                </span>
-                                <span class="read-more-bg"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3">
-                    <div class="card group">
-                        <a href="#" class="relative">
-                            <img class="rounded-t-lg card-img"
-                                src="https://images.pexels.com/photos/17539759/pexels-photo-17539759/free-photo-of-van.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                alt="" />
-                            <span
-                                class="absolute top-5 left-1 card-badge">
-                                Featured
-                            </span>
-                        </a>
-                        <div class="p-5">
-                            <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                    Noteworthy technology acquis..</h5>
-                            </a>
-                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest
-                                enterprise technology acquisitions of 2021 </p>
-                            <a href="#" class="btn text-black dark:text-white relative read-more">
-                                    <span class="z-[4]">
-                                    Read more <i class="fa-duotone fa-arrow-right ms-1"></i>
-                                </span>
-                                <span class="read-more-bg"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3">
-                    <div class="card group">
-                        <a href="#" class="relative">
-                            <img class="rounded-t-lg card-img"
-                                src="https://images.pexels.com/photos/17282734/pexels-photo-17282734/free-photo-of-city-people-water-bridge.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                alt="" />
-                            <span
-                                class="absolute top-5 left-1 card-badge">
-                                Featured
-                            </span>
-                        </a>
-                        <div class="p-5">
-                            <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                    Noteworthy technology acquis..</h5>
-                            </a>
-                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest
-                                enterprise technology acquisitions of 2021 </p>
-                            <a href="#" class="btn text-black dark:text-white relative read-more">
-                                    <span class="z-[4]">
-                                    Read more <i class="fa-duotone fa-arrow-right ms-1"></i>
-                                </span>
-                                <span class="read-more-bg"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3">
-                    <div class="card group">
-                        <a href="#" class="relative">
-                            <img class="rounded-t-lg card-img"
-                                src="https://images.pexels.com/photos/17528523/pexels-photo-17528523/free-photo-of-wind-turbine-on-ocean.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                alt="" />
-                            <span
-                                class="absolute top-5 left-1 card-badge">
-                                Featured
-                            </span>
-                        </a>
-                        <div class="p-5">
-                            <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                    Noteworthy technology acquis..</h5>
-                            </a>
-                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest
-                                enterprise technology acquisitions of 2021 </p>
-                            <a href="#" class="btn text-black dark:text-white relative read-more">
+                                enterprise technology acquisitions of 2021</p>
+                            <a href="#" class="btn text-blue-950 dark:text-white relative read-more">
                                     <span class="z-[4]">
                                     Read more <i class="fa-duotone fa-arrow-right ms-1"></i>
                                 </span>

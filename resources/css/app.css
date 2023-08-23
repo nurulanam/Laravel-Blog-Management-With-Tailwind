@@ -11,6 +11,16 @@
 }
 
 @layer components{
+    .text-stroke-white{
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: #fff;
+        @apply text-transparent;
+    }
+    .text-stroke-blue{
+        @apply text-transparent;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: #1A56DB;
+    }
     .btn{
         @apply inline-flex items-center px-3 py-2 text-sm font-medium text-center rounded-lg focus:ring-4 focus:outline-none;
     }
@@ -24,7 +34,7 @@
         @apply p-4 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500;
     }
     .card{
-        @apply w-full h-full transition-all ease-linear bg-slate-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden;
+        @apply w-full h-full transition-all ease-linear bg-blue-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden;
     }
     .card-img{
         @apply w-full max-h-64 transition-all ease-linear delay-200 scale-100 group-hover:scale-105 object-cover;
